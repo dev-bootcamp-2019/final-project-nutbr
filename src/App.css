@@ -1,0 +1,197 @@
+/* PAGE */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Tahoma', 'Arial', sans-serif;
+}
+
+.developer-account {
+  color: green;
+  margin: 15px;
+}
+
+.current-account {
+  color: grey;
+  margin: 15px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 45px 20px;
+}
+
+.row-disabled {
+  opacity: 0.5;
+}
+
+.currency {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+  color: blue;
+}
+
+
+.arrow {
+  padding: 15px 0;
+}
+
+.trader-and-price {
+  margin: 5px 0;
+  white-space: nowrap;
+}
+
+.trader {
+  font-weight: bold;
+  color: orange;
+  padding: 15px 0;
+  font-size: 16px;
+  margin: 5px;
+
+}
+
+.price {
+  font-weight: bold;
+  color: orange;
+  white-space: nowrap;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.total {
+  margin: 5px;
+}
+
+.action-buttons {
+  white-space: nowrap;
+}
+
+.booking-ccyCustomer-details {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.book-button, .buy-now-button {
+  margin: 10px 15px !important;
+}
+
+.booking-details-field {
+  width: 400px;
+}
+
+.search-result-paper, .my-purchase-paper, .sold-bidask-paper {
+  margin: 15px;
+  padding: 15px;
+}
+
+.purchase-id {
+  margin: 15px;
+  color: grey;
+}
+
+.bidask-ccyCustomer-details {
+  color: grey;
+  font-size: smaller;
+}
+
+.ccyCustomer-details-value {
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.my-purchase-loading {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.sold-bidasks-container {
+  max-height: 400px;
+  overflow-y: scroll;
+  background: #f0f0f0;
+  padding: 0px;
+  position: relative;
+}
+
+.bidask-buyer {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sold-bidask-paper .bidask-loading {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sold-bidask-paper .purchase-id {
+  margin: 20px;
+}
+
+.sold-bidask-paper .bidask-id {
+  margin-top: 20px;
+  white-space: nowrap;
+}
+
+.sold-bidask-paper .bidask {
+  margin-top: 5px;
+}
+
+.trader-logo-input {
+  display: none;
+}
+
+.trader-logo-card {
+  display: flex;
+  position: relative;
+}
+
+.trader-logo-form-image {
+  width: 100px;
+  height: 64px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.trader-logo-actions {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.trader-logo-button {
+  white-space: nowrap;
+}
+
+.trader-logo-loader {
+  position: absolute;
+  top: 15px;
+  left: 50px;
+}
+
+.trader-logo {
+  width: 100px;
+  height: 64px;
+  margin: 5px;
+}
+
+.trader-logo-small {
+  width: 96px;
+  height: 48px;
+  margin: 0;
+}
+
+.stop {
+  background-color: red;
+  width: 96px;
+  height: 48px;
+  float:right;
+}

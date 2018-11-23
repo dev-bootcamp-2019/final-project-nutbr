@@ -1,0 +1,36 @@
+Deploy your application onto one of the test networks. Include a document called deployed_addresses.txt that describes where your contracts live (which testnet and address).
+Students can verify their source code using etherscan for the appropriate testnet https://etherscan.io/verifyContract
+Evaluators can check by getting the provided contract ABI and calling a function on the deployed contract at https://www.myetherwallet.com/#contracts or checking the verification on etherscan
+
+
+I used Ropsten Network
+Below is the code executed and the contract/address deployed on Ropsten network:
+
+
+cheddar@cheddar:~/currencyExchange$ truffle migrate --network ropsten --reset
+Using network 'ropsten'.
+
+Running migration: 1_initial_migration.js
+  Migrations: 0x7730fc9b06ccb7b93e7934506bdf23344d7e1a45
+Saving successful migration to network...
+  ... 0xaecf3049b31c53029f50e95e02304633360b5fcb1380e0d6a82dc6619f1bdc3a
+Saving artifacts...
+
+Running migration: 2_deploy_contracts.js
+  Deploying SafeMath...
+  ... 0xaa5f2b3a54a9cb47e00b5d269bb33229cf300d2b502522af6756ab7492d64ce1
+  SafeMath: 0x8826e6e077d306c3cc20c5a00e2154ac085824c2
+
+  Deploying TraderExchange...
+  ... 0xb939836c5882a747baf8942ba0373e306181b456584baefdb68122c4f3213248
+  TraderExchange: 0x78a0b55ffaba9bb325c8f2feb0b627b305a78c8b
+
+  Deploying TraderExchangeRegistration...
+  ... 0x9861afe5692a768b28d5751ab603db2321f2981b2146635bfe0f0c9d4eb96a2e
+  TraderExchangeRegistration: 0xd57fd101c61ee4db6afdb8722f6783f1e6e6ec20
+
+Saving successful migration to network...
+  ... 0xb98c56f7b9dca9dfd39f16e56889f7ffc8db33c29c5557ba206a1735495dfb2e
+Saving artifacts...
+
+cheddar@cheddar:~/currencyExchange$
